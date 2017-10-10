@@ -1,6 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -54,7 +54,7 @@
           <target>1.8</target>
           <!-- avoid possible encoding issues -->
           <encoding>utf-8</encoding>
-          </configuration>
+        </configuration>
       </plugin>
       <!-- Maven Jar Plugin -->
       <plugin>
@@ -315,7 +315,7 @@
       <version>${guava.version}</version>
     </dependency>
 
-     <!--https://mvnrepository.com/artifact/org.freemarker/freemarker-->
+    <!--https://mvnrepository.com/artifact/org.freemarker/freemarker-->
     <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
@@ -369,14 +369,23 @@
       <version>2.7</version>
     </dependency>
 
+<<<<<<< HEAD
     <!-- Httpclient -->
+=======
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+>>>>>>> 3284a7daa2109f863f90e29f3d19e46fecf93722
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
       <version>4.5.3</version>
     </dependency>
 
+<<<<<<< HEAD
     <!-- google maps services-->
+=======
+
+    <!-- https://mvnrepository.com/artifact/com.google.maps/google-maps-services -->
+>>>>>>> 3284a7daa2109f863f90e29f3d19e46fecf93722
     <dependency>
       <groupId>com.google.maps</groupId>
       <artifactId>google-maps-services</artifactId>
@@ -389,12 +398,22 @@
       <version>${slf4j.version}</version>
     </dependency>
 
+<<<<<<< HEAD
     <!-- jsoup -->
     <dependency>
+=======
+    <dependency>
+      <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+>>>>>>> 3284a7daa2109f863f90e29f3d19e46fecf93722
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
       <version>1.10.3</version>
     </dependency>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3284a7daa2109f863f90e29f3d19e46fecf93722
   </dependencies>
 
 </project>
